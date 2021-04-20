@@ -1,6 +1,6 @@
 ---
 - name: Configure instance(s)
-  hosts: launched
+  hosts: web
   become: True
   gather_facts: True
   roles:
