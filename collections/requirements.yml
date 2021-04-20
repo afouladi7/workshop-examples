@@ -1,4 +1,0 @@
----
-roles:
-  # Install a collection from Ansible Collections.
-  - name: RedHatOfficial.rhel8_stig
