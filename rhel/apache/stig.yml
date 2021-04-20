@@ -1,9 +1,4 @@
 ---
-collections:
-  # Install a collection from Ansible Collections.
-  - name: redhatofficial.rhel8_stig
-    source: https://galaxy.ansible.com
-
 - name: Configure instance(s)
   hosts: launched
   become: True
