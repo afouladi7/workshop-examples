@@ -1,5 +1,0 @@
----
-collections:
-  # Install a collection from Ansible Collections.
-  - name: redhatofficial.rhel8_stig
-    source: https://galaxy.ansible.com
