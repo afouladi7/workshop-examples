@@ -1,6 +1,6 @@
 ---
 - name: Download Collections in tmp folder
-  ansible.builtin.shell: ansible-galaxy install RedHatOfficial.rhel8_stig
+  command: ansible-galaxy install RedHatOfficial.rhel8_stig
 
 - name: Configure instance(s)
   hosts: launched
